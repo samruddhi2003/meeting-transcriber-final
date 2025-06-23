@@ -1,16 +1,4 @@
 import whisper
-import os
-import subprocess
-
-def install_ffmpeg():
-    try:
-        subprocess.run(["ffmpeg", "-version"], check=True)
-    except:
-        subprocess.run(["apt-get", "update"], check=True)
-        subprocess.run(["apt-get", "install", "-y", "ffmpeg"], check=True)
-
-install_ffmpeg()
-
 
 
 def transcribe_audio(audio_path="meeting_sample.mp3"):
