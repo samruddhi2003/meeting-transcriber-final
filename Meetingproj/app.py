@@ -30,14 +30,7 @@ if uploaded_file is not None:
     st.subheader("📄 Summary")
     st.write(summary)
 
-    try:
-       output = subprocess.check_output(["ffmpeg", "-version"]).decode()
-       st.text("✅ FFmpeg is installed!")
-       st.text(output.splitlines()[0])
-    except Exception as e:
-       st.error(f"❌ FFmpeg check failed: {e}")
-
-    st.text("FFmpeg exists: " + str(os.system("which ffmpeg") == 0))
+   
 
     
 
