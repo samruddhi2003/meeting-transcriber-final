@@ -1,0 +1,17 @@
+📋 Summary:
+we're going to try to explain how all these technologies relate and how we can use them . if we look at a timeline of AI, it really started back around this time frame . we used technology like this before we ever touched in to the next topic .
+
+a machine learning algorithm is really good at looking at patterns and discovering patterns within data . the more training data you can give it, the more confident it can be in predicting . machine learning is particularly useful in cybersecurity, the area that I work in .
+
+foundation models are where we get some of these kinds of things . they're predicting what your next word will be, except for large language models . generative AI isn't really generative because they are regurgitating existing information .
+
+this is where the chat bots and all of these things come in . this is the area that has really caused all of us to really pay attention to AI .
+
+✅ Action Items:
+we're going to try to explain how all these technologies relate and how we can use them . if we look at a timeline of AI, it really started back around this time frame . we used technology like this before we ever touched in to the next topic .
+
+a machine learning algorithm is really good at looking at patterns and discovering patterns within data . the more training data you can give it, the more confident it can be in predicting . we're looking for outliers who are using the system in ways they shouldn't be .
+
+foundation models are where we get some of these kinds of things . they're predicting what your next word will be, except in this case with large language models . generative AI isn't really generative because they are regurgitating existing information .
+
+this is where the chat bots and all of these things come in . this is the area that has really caused all of us to really pay attention to AI . if you like this video, please leave a comment below .
