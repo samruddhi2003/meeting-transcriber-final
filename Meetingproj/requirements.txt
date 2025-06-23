@@ -2,5 +2,5 @@ streamlit
 git+https://github.com/openai/whisper.git
 transformers
 torch
-sentencepiece
+
 faster-whisper
