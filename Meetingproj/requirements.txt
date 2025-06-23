@@ -1,5 +1,6 @@
-openai-whisper
 streamlit
-torch
+openai-whisper
 transformers
+torch
 sentencepiece
+faster-whisper
