@@ -2,7 +2,7 @@ import whisper
 import os
 import subprocess
 
-  def install_ffmpeg():
+def install_ffmpeg():
     try:
         subprocess.run(["ffmpeg", "-version"], check=True)
     except:
