@@ -1,5 +1,6 @@
 # 🎙️ Meeting Transcriber & Summarizer
 Meeting Transcriber & Summarizer is a Python-based project that transcribes audio meeting recordings using OpenAI’s Whisper model and summarizes them using Hugging Face Transformers. The application includes a simple Streamlit UI for user interaction.
+
 # 🚀 Features
 
 - Upload .mp3 or .wav files for transcription.
@@ -65,6 +66,8 @@ You can deploy this project on:
 - Streamlit Cloud (streamlit.io)
 - Local machine with Python installed
 - Any basic web server with Gradio or Flask (optional)
+# ⚠️ Note
+This app is deployed on Streamlit Cloud (CPU-only). For large audio files or faster performance, we recommend running locally on a GPU or deploying with GPU support (Colab Pro / Hugging Face Spaces / RunPod).
 
 # 📜 License
 This project is licensed under the MIT License.
