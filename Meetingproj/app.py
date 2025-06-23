@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import subprocess
 from transcribe_meeting import transcribe_audio
@@ -35,6 +36,8 @@ if uploaded_file is not None:
        st.text(output.splitlines()[0])
     except Exception as e:
        st.error(f"❌ FFmpeg check failed: {e}")
+
+    st.text("FFmpeg exists: " + str(os.system("which ffmpeg") == 0))
 
     
 
