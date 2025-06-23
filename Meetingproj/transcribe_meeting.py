@@ -1,4 +1,6 @@
 import whisper
+import os
+import subprocess
 
 def transcribe_audio(audio_path="meeting_sample.mp3"):
     """
@@ -23,5 +25,15 @@ def transcribe_audio(audio_path="meeting_sample.mp3"):
     # Save transcript to file
     with open("meeting_transcript.txt", "w", encoding="utf-8") as f:
         f.write(result["text"])
+
+    def install_ffmpeg():
+    try:
+        subprocess.run(["ffmpeg", "-version"], check=True)
+    except:
+        subprocess.run(["apt-get", "update"], check=True)
+        subprocess.run(["apt-get", "install", "-y", "ffmpeg"], check=True)
+
+install_ffmpeg()
+
 
     return result["text"]
