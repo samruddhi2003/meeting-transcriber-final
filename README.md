@@ -1,5 +1,5 @@
 # 🎙️ Meeting Transcriber & Summarizer
-Meeting Transcriber & Summarizer is a Python-based project that transcribes audio meeting recordings using OpenAI’s Whisper model and summarizes them using Hugging Face Transformers. The application includes a simple Streamlit UI for user interaction.
+Meeting Transcriber & Summarizer is a Python-based project that transcribes audio meeting recordings using OpenAI’s Whisper model and summarizes them using Hugging Face Transformers. The application includes a simple Streamlit UI for user interaction, and a Google Colab alternative for GPU-based execution.
 
 # 🚀 Features
 
@@ -8,6 +8,9 @@ Meeting Transcriber & Summarizer is a Python-based project that transcribes audi
 - Summarizes the transcript using T5-small from Hugging Face.
 - Clean UI using Streamlit (optional) or CLI.
 - Option to download the final summary.
+- Simple UI using Streamlit or Google Colab
+- Option to download summary as .txt or .pdf
+
 
 # 🛠️ Technologies Used
 
@@ -16,6 +19,7 @@ Meeting Transcriber & Summarizer is a Python-based project that transcribes audi
 - Hugging Face Transformers (T5-small)
 - Streamlit (optional UI)
 - ffmpeg (for audio processing)
+- Google Colab (GPU-powered)
 
 # 📦 Dependencies
 
@@ -66,6 +70,7 @@ You can deploy this project on:
 - Streamlit Cloud (streamlit.io)
 - Local machine with Python installed
 - Any basic web server with Gradio or Flask (optional)
+- Colab
 # ⚠️ Note
 This app is deployed on Streamlit Cloud (CPU-only). For large audio files or faster performance, we recommend running locally on a GPU or deploying with GPU support (Colab Pro / Hugging Face Spaces / RunPod).
 
